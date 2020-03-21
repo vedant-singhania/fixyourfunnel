@@ -16,7 +16,7 @@ class PostsTableSeeder extends Seeder
 
 
         #\DB::table('posts')->delete();
-        factory(Post::class, 300)->create();
+        factory(Post::class, 30)->create();
 
     }
 }

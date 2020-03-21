@@ -1,0 +1,22 @@
+
+Question 2
+You are assigned to a major project that will attempt to abstract and consolidate similar business logic from 2
+different applications. While each application serves a different market and user, each application has some
+shared functionality. Currently the implementation is written separately, but some functions could be abstracted
+to a single implementation. How would you determine which functionality should be abstracted and used by both
+applications. Which tools (languages, cloud services, etc.) would you choose to accomplish your
+implementation?
+
+The scenario outlined in this question is one that I’ve faced at my previous job at Distillery Solutions. We had a software platform for distilleries and another one for breweries. While both systems served different industries, a lot of the functionality between the 2 was common. 
+
+They way I determined which functionally could be abstracted to a single implementation was largely dictated by the underlying shared DB schema bits. Certain groups of tables were extremely similar in their structure and thus the functionality in the two systems was also similar.
+
+We were faced with the dilemma of how to be able to consolidate and improve our operations because it was just not scaleable to maintain 2 different code sets that did largely the same thing. Hiring and growing the team was challenging and we felt like we kept solving the same problems over and over again instead of just implementing some functionality that could be used by both systems as soon as it was ready.
+
+So when we set out to solve this challenge - 3 different strategies came to mind, but each had its pros and cons. Those same strategies could be applied here (in increasing order of feasibility):
+
+- Build an entirely new system (not recommended) : An entirely new system could be built that charts out shared functionality. Then we proceed to implement the shared as well as platform specific logic into the same code set with different configurations. While this approach might seem like the “cleanest”, nicest way to solve this problem. This is not feasible from a business operational standpoint. For this to happen, some personnel would need to be working solely on building out this new platform while the platform specific engineers continue their duties as is. In all likelihood, the platform specific engineers would be pulled in a lot for strategy and guidance while building out the business logic.
+- Mono Repo: This is a technique by which both code bases would be put on to the same repo to form one giant code set (separated by folders of course). The idea would be to build out a common library of functions that exhibited the same functionality. The benefit of this approach would be that this common library could be built out while normal operations are continued on the 2 platforms. I’m assuming that the different platforms are versions of vanilla php or laravel, so the common library would also be in php. The library functions would receive requests and deliver responses just like an api would.  The disadvantages of this approach are the maintainability of the giant codebase. Workflows could be a little muddled because of this approach and deployments would take a long time.
+- Backend API (preferred approach): This borrows from the shared common library idea. A backend web api could be set up that just received requests and sent responses. Each similar function on both code bases could craft a request and send it to a consolidated function on this api instead of independently computing. This way the shared functionality is being deployed in stages as its being built while reliance on the independent functions is decreasing. Over time the api will be comprehensive enough to pull out most of the shared functionality. With this approach additional platforms could also be added. Personally, I would pick Node JS to be the web api language since it is being used and designed for that purpose extensively. However, my ultimate choice in API language would come down to the expertise and skills already present on the team and something that’s readily hirable for. The disadvantages to this approach might be network issues like latency because all communication here would be network communication.
+
+After having laid out these different strategies, I would ultimately lean towards creating a backend api/services type of architecture which would serve up all the shared functionality.

@@ -22,6 +22,7 @@ $factory->define(Post::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
         'user_id' => $faker->numberBetween(1,30),
-        'image' => $faker->imageUrl($width = 1000, $height = 1000, 'sports')
+        //'image' => $faker->imageUrl($width = 1000, $height = 1000, 'sports')
+        'image' => $faker->image($dir = '/uploads', $width = 1000, $height = 1000)
     ];
 });
