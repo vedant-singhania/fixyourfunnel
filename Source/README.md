@@ -12,3 +12,10 @@ Things I’m not addressing in the project because there’s limited time and I 
 - JS based filtering and sorting: would ideally like to have the sort filters be Ajax based instead of being quick and dirty form buttons 
 - Pagination: Ideally some sort of auto scrolling feature would be ideal
 - Vue.js state workflow: Laravel came configured with Vue JS. It would be ideal to implement the views with Vue components
+
+TO RUN:
+
+- Download the moments folder
+- Open Terminal and navigate to moments folder
+- run 'php artisan serve'
+- Open browser and type 'http://127.0.0.1:8000/' 
