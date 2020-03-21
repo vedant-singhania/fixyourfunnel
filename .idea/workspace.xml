@@ -1,7 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0e03cb-043c-4da0-ae6c-2a521247a6c2" name="Default Changelist" comment="" />
+    <list default="true" id="4b0e03cb-043c-4da0-ae6c-2a521247a6c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/moments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/moments.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/broadcasting 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cache 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cors 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/hashing 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/logging 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/queue 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/view 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/.gitignore 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon 2.ico" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/FilterComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots 2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app 2.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/channels 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/console 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web 2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server 2.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +92,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -113,9 +196,15 @@
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/bcmath_compat" />
+      <path value="$PROJECT_DIR$/vendor/moontoast/math" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Z6JrDT5XRaaG1HMca372mgGLCs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -123,9 +212,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/posts" />
+      <recent name="$PROJECT_DIR$/resources/views/profiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/profiles" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -144,7 +243,10 @@
       <option name="presentableId" value="Default" />
       <updated>1584153811587</updated>
       <workItem from="1584153846352" duration="2157000" />
-      <workItem from="1584158353422" duration="1630000" />
+      <workItem from="1584158353422" duration="24800000" />
+      <workItem from="1584645530210" duration="12882000" />
+      <workItem from="1584725327786" duration="6488000" />
+      <workItem from="1584735588816" duration="8719000" />
     </task>
     <servers />
   </component>
@@ -156,10 +258,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="349" y="210" key="#com.intellij.fileTypes.FileTypeChooser/1280.-882.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1584158113095" />
-    <state x="319" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584158355619">
+    <state x="378" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584668668064">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="319" y="210" key="com.intellij.ide.util.TipDialog/1280.-859.1920.1057/0.23.1280.709@0.23.1280.709" timestamp="1584153857132" />
-    <state x="319" y="211" key="com.intellij.ide.util.TipDialog/1280.-882.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1584158355619" />
+    <state x="378" y="162" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1280.-882.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1584668668064" />
+    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1584731395145">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="461" y="330" key="NewPhpFileDialog/1280.-882.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1584731395145" />
+    <state x="319" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1584735728476">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="319" y="210" key="com.intellij.ide.util.TipDialog/1280.-859.1920.1057/0.23.1280.709@0.23.1280.709" timestamp="1584651845692" />
+    <state x="319" y="211" key="com.intellij.ide.util.TipDialog/1280.-882.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1584735728476" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1584658731634">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/1280.-882.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1584658731634" />
   </component>
 </project>

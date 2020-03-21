@@ -6,3 +6,26 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+.upload-button-container {
+    float: left;
+    display: inline-block;
+    margin: 9px 0 0 20px;
+    border-radius: 3px;
+    border: 1px solid #1bb76e;
+    background: #1bb76e;
+    //line-height: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+.upload-button-container .upload-button {
+    display: inline-block;
+    padding: 5px 0 2px 12px;
+    line-height: 150%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f2f2f2;
+    width: 129px;
+}
