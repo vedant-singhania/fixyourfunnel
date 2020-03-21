@@ -18,4 +18,5 @@ TO RUN:
 - Download the moments folder
 - Open Terminal and navigate to moments folder
 - run 'php artisan serve'
+- run 'php artisan db:seed' 
 - Open browser and type 'http://127.0.0.1:8000/' 
